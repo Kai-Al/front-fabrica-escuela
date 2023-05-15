@@ -3,7 +3,7 @@ import Card from '@/components/Card'
 import { PlusIcon, SearchIcon } from '@/components/Icons'
 import Input from '@/components/Input'
 import NavBar from '@/components/NavBar'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 const BASE_API_URL = process.env.BASE_API_URL
